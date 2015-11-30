@@ -1,0 +1,417 @@
+/* Add your CSS here */
+body{
+    position: relative;
+    width: 74%;
+    height: 100%;
+    margin: 0;
+
+}
+.nav {
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline-block;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 1% 1% 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+    color: #151515
+}
+
+#header {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #fffabe;
+    width: 100%;
+    height: 20%;
+}
+
+#firstbox {
+    margin: 1% 1% 1% 12%; /* This is to keep the navigation titles in the right position*/
+}
+
+#ul{
+    margin: 0; /*This is to remove the default margins of ul*/
+    height: 30%;
+}
+
+a {
+    text-decoration: none;
+    color: #151515;
+}
+
+li a:hover {
+    color: #d43551;
+}
+
+#logo {
+    display: inline;
+    float: left;
+    margin: 2% 0 0 4%;
+    width: 15%;
+}
+
+/* From here is welcome page*/
+
+#welcome-image{
+    width: 100%;
+}
+
+#macarons-image {
+    float: left;
+    width: 25%;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    #margin: 5% 5% 5% 7%;
+}
+
+#main-content {
+    width: 100%;
+    #display: inline-block;
+    position: relative;
+    top: 30%;
+    left: 0;
+}
+
+/*This moves the paragraphs to the right to make room for macarons-image*/
+#p {
+    margin: 0 0 0 30%;
+    padding: 0 0 0 4%;
+    font-size: 1em;
+}
+
+.small_p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #6a6969;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    color: #6a6969;
+}
+
+.p_title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #6a6969;
+    margin: 40px 30px;
+}
+
+#coconut {
+    background-color: #824603;
+    color: white;
+}
+
+#greentea, #tiffany_blue, #pistachio {
+    background-color: #fffabe;
+}
+#vanilla {
+    background-color: #d43551;
+    color: white;
+}
+
+#lemon {
+    background-color: #a2304e;
+    color: white;
+}
+
+#almond {
+    background-color: #c39005;
+    color: white;
+}
+
+#under, #second, #schedule {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#second li, #schedule li, #under li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1vw;
+    display: inline-block;
+    height: 100%;
+    width: 13%;
+    margin: 0 0 0 .5%;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+#second li, #schedule li {
+    background-color: #fffabe;
+}
+
+span {
+    font-size: 1.1vw;
+}
+
+.macaron {
+    float: right;
+    margin: 0;
+    width: 20%;
+}
+
+#schedule_div {
+    position: relative;
+    width: 100%;
+    display: inline-block;
+
+}
+
+
+
+/* From here is Page 2 - Our macarons*/
+
+#page2 {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    #top: 510px;
+    left: 0;
+}
+
+#macaron_list, p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6969;
+    font-size: 1.1em;
+    margin: 30px;
+}
+
+.p_header {
+    font-size: 20px;
+    margin: 40px 30px 40px 30px;
+}
+
+#content_image {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+}
+
+.macaron_li {
+    margin: 6px 0;
+}
+
+.email {
+    color: #df5277;
+}
+
+
+/*From here is page 3 - gifts & parties page*/
+
+
+#page3 {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    #top: 510px;
+    left: 0;
+}
+
+.ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6a6969;
+    font-size: 14px;
+}
+
+.list_p {
+    margin: 0 30px 0 30px;
+}
+
+#gift_parties_background {
+    position: absolute;
+    #top: 600px;
+    left: 0;
+    width: 100%;
+}
+
+
+
+/*From here is page 4 - contact*/
+
+#contact {
+    width: 100%;
+}
+#page4 {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+
+    left: 0;
+}
+
+#page4_info {
+
+    float: left;
+    width: 33%;
+}
+
+#page4_contact {
+    float: left;
+    width: 33%;
+}
+
+#page4_form input, #page4_form textarea {
+    width: 100%;
+    height: 3vw;
+    margin: 5% 0 0 2%;
+    border: none;
+    background-color: #F5F5F5;
+    padding: .5% 1%;
+}
+
+#page4_form textarea {
+    height: 7vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#image {
+    position: relative;
+    top: 15vw;
+    left: 5vw;
+}
+
+#page4_form input[type=button] {
+    width: 50%;
+    position: relative;
+    left: 52%;
+    height: 3vw;
+}
+
+/* From here is footer*/
+
+
+#footer_ul {
+    list-style-type: none;
+    background-color: #df5277;
+    height: 100%;
+    padding: 1%;
+    margin: 1% 0 0 0;
+}
+
+#footer{
+    width: 100%;
+    height: 10%;
+    position: relative;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.f1 {
+    display: inline-block;
+    margin: .5% 5% .5% 5%;
+    padding: 0 2% 0 2%;
+    box-sizing: border-box;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+}
+
+#copyright {
+    margin: 1% 25% 0 25%;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+}
+
+@media screen and (max-width: 375px) {
+    body, #main-content, #header, .nav, #contact, #page4_info, #page4_form, #page4_contact, #footer, p, .p_title, .small_p, #page4, #page3, #page2, #welcome-image, #schedule_div, .schedule {
+        width: 100%;
+    }
+    body {
+        margin: 0;
+    }
+    #logo {
+        display: inline-block;
+        float: none;
+        width: 40%;
+        Margin: 2% 30%;
+    }
+    #header {
+        position: relative;
+    }
+    #ul {
+        padding: 0;
+    }
+    .nav {
+        margin: 0;
+        display: inline;
+        font-size: 3vw;
+        #width: 100%;
+    }
+
+    #firstbox{
+        margin: 0 0 0 5%;
+    }
+    #gift_parties_background {
+        display: none;
+    }
+    #page4_contact {
+        height: 120vw;
+    }
+
+   #page4_form input, #page4_form textarea {
+       height: 10vw;
+       margin: 2% 2% 2% 10%;
+       border: none;
+       background-color: #F5F5F5;
+       padding: 0 0 0 2%;
+       width: 85%;
+   }
+
+   #page4_form input[type=button] {
+       width: 45%;
+       float: right;
+       margin: 0 3% 0 0;
+       position: static;
+       height: 10vw;
+   }
+
+   #page4_form textarea {
+       height: 20vw;
+       width: 85%;
+   }
+
+    #page4_form {
+        width: 95%;
+        height: 90vw;
+    }
+
+    #page4_info p {
+        font-size: 4vw;
+    }
+    #page4_info #p_mobile {
+        font-size: 6vw;
+    }
+    #page4, #page3, #page2, #main-content {
+        position: relative;
+        top: 5vw;
+        left:0;
+        height: 100%;
+    }
+    .image_hide {
+        display: none;
+    }
+    #footer {
+        position: relative;
+        top: 0;
+    }
+    .f1 {
+        margin: 2% 0 0 0;
+        position: relative;
+        left: 12vw;
+    }
+    #copyright {
+        margin: 2% 5% 1% 5%;
+    }
+    .f1:nth-of-type(3) {
+        position: relative;
+    }
+}

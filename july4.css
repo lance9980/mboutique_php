@@ -1,0 +1,24 @@
+#header {
+    background-image: url("july4_fw2.jpg");
+    background-position: center center;
+}
+.nav a {
+    color: lightblue;
+    font-weight: bold;
+}
+
+#footer {
+    background-image: url("happy4th2.jpg");
+    background-position: center center;
+    background-size: 100%;
+}
+#footer_ul {
+    background-color: initial;
+}
+.f1 {
+    color:
+}
+
+p {
+    color: #BF1E2E !important;
+}
